@@ -45,11 +45,11 @@ Alongside the IPS is an IDS to detect and flag suspicious network traffic for fu
 
 ## Respond
 
-The organization shall create alternative means to provide vital network services in the event of an attack. Non-essential ports have been closed and incoming traffic is limited for a particular user accessing the website at one time.
+For future incidents, affected systems will be isolated to prevent further damage. The organization shall create alternative means to provide vital network services in the event of an attack. Non-essential ports have been closed and incoming traffic is limited for a particular user accessing the website at one time.
 
 ## Recover
 
-Network services were recovered once the attack was mitigated. The security team will backup data often in order to reduce the recovery time and this backup shall be stored in a separated environment with increased security controls in place.
+Network services will be recovered once the attack is mitigated. Non-essential traffic will be halted in order to limit additional network traffic unrelated to the event. The security team will backup data often in order to reduce the recovery time and this backup shall be stored in a separated environment with increased security controls in place.
 
 
 
