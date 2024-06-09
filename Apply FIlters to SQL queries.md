@@ -26,7 +26,7 @@ Use the ``` OR ``` operator to retrieve login attempts on multiple specific days
 
 ``` SELECT * FROM log_in_attempts WHERE login_date = '2022-05-09' OR login_date = '2022-05-08'; ```
 
-The results show login attempts made only on _2022-05-09_ and _2022-05-08_.
+The results show login attempts made only on ``` 2022-05-09 ``` and ``` 2022-05-08 ```.
 
 ![image](https://github.com/nosajman33/Cybersecurity-Portfolio/assets/152820081/17290ba3-f177-4555-972b-7dc5c074e7f5)
 
@@ -34,7 +34,7 @@ The results show login attempts made only on _2022-05-09_ and _2022-05-08_.
 
 Now, your team is investigating logins that did not originate in Mexico, and you need to find this information.
 
-Mexico is represented in the table as both ``` MEXICO ``` and ```MEX ```, so the wildcard symbol ``` % ``` can be used to include both results. The ``` NOT ```  operator will be used to exlude login attempts from Mexico.
+Mexico is represented in the table as both ``` MEXICO ``` and ```MEX ```, so the wildcard symbol ``` % ``` can be used with ``` LIKE ``` to return all results beginning with ``` 'MEX' ```. The ``` NOT ```  operator will be used to exclude login attempts from Mexico.
 
 ``` SELECT * FROM log_in_attempts WHERE NOT country LIKE 'MEX%'; ```
 
