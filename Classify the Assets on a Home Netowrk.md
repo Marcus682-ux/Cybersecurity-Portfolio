@@ -14,6 +14,6 @@ Then, you’ll list important characteristics of each device such as its owner, 
 | Desktop | Occasional | Homeowner | On premises | Contains private information, like photos. | Restricted |
 | Guest Smartphone | Occasional | Friend | On and off premises | Connects to my home network | Internal only |
 | Laptop | Occasional | Homeowner | On premises | Contains only work information and must remain on premises | Restricted |
-| XBOX Console | Occasional | Homeowner | On premises | Personal use only. Connects to my home network.| Internal only |
+| XBOX Console | Occasional | Homeowner | On premises | Personal use only. Stores credit card information for purchasing games.| Internal only |
 | Home Security Camera | Continuous| Homeowner | On premises | Default password has been changed and is connected to home network. Has recording capabilities. | Confidential | 
 
