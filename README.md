@@ -1,7 +1,7 @@
 
 # Cybersecurity-Portfolio
 
-## My working cybersecurity professional statement
+## My working cybersecurity professional portfolio
 
 I am a driven and punctual professional that leverages my ability to find and address discrepencies in order to provide value in whatever task I am assigned.  
 
